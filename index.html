@@ -5,6 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./style.css" rel="stylesheet">
+        <script type="module" src="./src/data/eventList.js"></script>
+        <script type="module" src="./src/data/eventsRegister.js"></script>
+        <script type="module" src="./src/app.js"></script>
+        <script type="module" src="./src/data/bussinessList.js" defer></script>
+        <script type="module" src="./src/data/bussinessProductsRegister.js"></script>
+        <script type="module" src="./src/data/eventComponent.js"></script>
     </head>
     <body>
         <header>
@@ -76,13 +82,20 @@
                     </div>
                 </div>
             </div>
+            <event-list id="eventosList"></event-list>
+            <bussiness-list id="emprendedoresList"></bussiness-list>
             <div class="cardRegisterEvent">
                 <h1>¿Listo para comenzar?</h1>
                 <p>Registra tu evento de emprendimiento y ayuda a visibilizar a los emprendedores de la region.</p>
-                <a href="">
+                <a href="" id="register-btn1">
                     <p>Registrar un nuevo evento</p>
                 </a>
+                <a href="" id="registrar-emprendimiento">
+                    <p>Registrar un nuevo emprendimiento</p>
+                </a>
             </div>
+            <event-registration id="registration-component" style="display: none;"></event-registration>
+            <bussiness-registration id="bussiness-registration" style="display: none;"></bussiness-registration>
             </div>
         </main>
     </body>
