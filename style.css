@@ -114,8 +114,86 @@ header {
     margin-left: 10px;
 }
 .buttons a:last-child{
-    width: 21.5%;
+    width: 25%;;
+}
+.buttons a:last-child p {
+    margin-left: 10px;
 }
 .buttons a:hover {
     background: khaki;
+}
+main {
+    gap: 40px;
+}
+.cardRegisterEvent {
+    display: flex;
+    width: 90%;
+    background: greenyellow;
+    margin: 20px 90px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+}
+.mainContent {
+    width: 90%;
+    margin: 50px 90px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainContent h1 {
+    font-size: 3rem;
+}
+.mainContent p {
+    font-size: 2rem;
+}
+.cardRegisterEvent a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+.cardRegisterEvent a:hover {
+    background: chocolate;
+    color: azure;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card {
+    width: 40%;
+    background: salmon;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.card-content {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card-image {
+    background: slateblue;
+    width: 40px;
+    height: 40px;
+}
+.card h3 {
+    font-size: 2.5rem;
+}
+.card p {
+    font-size: 1.6rem;
 }
