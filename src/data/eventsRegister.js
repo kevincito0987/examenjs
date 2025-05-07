@@ -1,8 +1,11 @@
 const registerEvent = () => {
     let event = {
-        lugar: {required:true, type: String},
-        fechaInicio: {required:true, type: String},
-        fechaFinalizacion: {required:true, type: String},
-        horarios: {required:true, type: String}
+        lugar: prompt("Indica el lugar del evento: "),
+        fechaInicio: prompt("Indica la fecha de inicio del evento: "),
+        fechaFinalizacion: prompt("Indica la fecha de finalizacion del evento: "),
+        horarios: prompt("Indica los horarios del evento: ")
     }
+
+    let opc = prompt(Number("Ingresa el numnero de eventos que vas a agregar: "))
+    let eventosFavoritos = JSON.parse(localStorage.getItem("eventos-favoritos")) || []
 }
