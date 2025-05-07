@@ -46,24 +46,29 @@ Para desarrollar la división del proyecto FrontEnd se deben tener los siguiente
     • Se tendrá en cuenta la creatividad y redacción del contenido.
 
 Diseño de referencia
+![image](https://github.com/user-attachments/assets/7b30c5d5-6480-449f-9629-d51ba012422f)
 
 Dashboard/Home
+![image](https://github.com/user-attachments/assets/b7882094-ea3a-462a-bbb0-f521b4c57f50)
 
 Registro de nuevo evento
+![image](https://github.com/user-attachments/assets/7d35a361-5dc4-41a1-bef3-e6a2f202bd5a)
 
 
 Listado de eventos
+![image](https://github.com/user-attachments/assets/f2434143-00fc-40e4-befb-763a8fff49fd)
 
 
 Registro de emprendedor a un evento y sus productos
+![image](https://github.com/user-attachments/assets/84642e34-7138-4ffd-9cd1-8b1c6d8de146)
 
 
 Vista de emprendedores participantes a un evento con detalle de un solo producto desde un evento.
+![image](https://github.com/user-attachments/assets/c7ced68d-b832-4c92-8771-2e80e65acfb0)
 
 
 Vista de emprendedores participantes a un evento con detalle de dos o más productos.
-
-
+![image](https://github.com/user-attachments/assets/aa5aaaec-9629-4080-8df4-500aa8d5b6cd)
 
 
 Eventos pasados – filtro.
